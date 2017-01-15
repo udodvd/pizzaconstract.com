@@ -1,0 +1,74 @@
+body,html {
+  height: 100%;
+    width: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+.right {
+    float: left;
+   width: 49%;
+    height: 100%;
+    background: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    border: 8px solid #58460f;
+    border-radius: 15px;
+}
+.wrapper::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+.left {
+    float: left;
+  width: 49%;
+    height: 100%;
+    background: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    border: 8px solid #58460f;
+    border-radius: 15px;
+}
+.tabsMunu li.tabsClick1,.tabsMunu li.tabsClick2 {
+     background: url(images/types.png);
+    background-position: -45px 0px;
+    width: 46px;
+    margin: 0;
+    padding: 0;
+    height: 41px;
+    float: left;
+}
+.tabsMunu li.tabsClick2{
+    background-position: -94px 0px;
+}
+ul.menuLeft1, ul.menuLeft2{
+    clear: both;
+}
+.menuLeft1 img,.menuLeft2 img ,.menuRight img{
+    max-width: 55px;
+}
+.menuLeft1 li,.menuLeft2 li {
+    float: left;
+    margin-right: 5px;
+}
+.active{
+background-position: -45px -40px!important;
+}
+.active2{
+    background-position: -94px -39px!important;
+}
+.active{ color: red; }
